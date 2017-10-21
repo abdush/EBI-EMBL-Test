@@ -1,0 +1,11 @@
+ERS017995	Investigation type	MIENS_Survey
+ERS017995	Project name	16S on elevated CO2 in BioCON site
+ERS017995	Geographic location (country:region,area)	USA:Minnesota,East Bethel
+ERS017995	Depth	0-15
+ERS017995	Collection date	July 2007
+ERS017995	Geographic location (latitude and longitude)	45° N, 93° W
+ERS017995	ENA-CHECKLIST	GSC:MIMARKS:2.1
+ERS016117	geographic location (latitude and longitude)	51.398 N 84.675 E
+ERS016117	geographic location (depth)	1.7 +/- 0.3
+ERS016117	geographic location (country and/or sea,region)	Russian Federation:Altaysky Kray,Soloneshensky Rayon
+ERS016117	collection date	2008

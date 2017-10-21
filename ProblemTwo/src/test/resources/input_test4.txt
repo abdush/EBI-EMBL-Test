@@ -1,0 +1,14 @@
+ERS005609	collection_date	1800/2014
+ERS005609	country	Malawi
+ERS005609	ENA-CHECKLIST	ERC000011
+ERS009822	geographic location (country and/or sea)	South Korea
+ERS009822	collection_date	1800-01-01/2015-01-01
+ERS009822	ENA-CHECKLIST	ERC000011
+ERS955657	collection_date	07-Nov-2012/31-Jan-2013
+ERS955657	geographic location (country and/or sea)	United Kingdom
+ERS955657	lat_lon
+ERS955657	geographic location (latitude)
+ERS955657	collection date
+ERS955657	investigation type
+ERS955657	geographic location (longitude)
+ERS955657	ENA-CHECKLIST	ERC000011
