@@ -1,6 +1,11 @@
 package com.ebi;
 
-import com.ebi.helper.*;
+import com.ebi.dao.SampleFileReader;
+import com.ebi.dao.SampleFileWriter;
+import com.ebi.helper.AppProperties;
+import com.ebi.helper.AttributeMappingReader;
+import com.ebi.helper.Constants;
+import com.ebi.helper.SampleSummary;
 import com.ebi.model.BioSample;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.slf4j.Logger;
@@ -18,12 +23,18 @@ public class ProblemTwo {
 
     public static void main(String[] args) {
 
-        //TODO read files from Constants or properties
-        final String mappingFile = Constants.ATTRIBUTE_MAPPING_FILE;
-        final String inputFile = Constants.INPUT_FILE;
-        final String outputFile = Constants.OUTPUT_FILE;
-
         try {
+            //Set the files path:
+            // first attempt to load from application.properties,
+            //second will use default files in resources folder
+            AppProperties appProperties = new AppProperties();
+            final String mappingFile = appProperties.getAttributesMappingFile() != null?
+                    appProperties.getAttributesMappingFile(): Constants.ATTRIBUTE_MAPPING_FILE;
+            final String inputFile = appProperties.getInputFile() != null ?
+                    appProperties.getInputFile() : Constants.INPUT_FILE;
+            final String outputFile = appProperties.getOutputFile() != null ?
+                    appProperties.getOutputFile() : Constants.OUTPUT_FILE;
+
             //Read attributes mapping file
             AttributeMappingReader attributeMappingReader = null;
             try {

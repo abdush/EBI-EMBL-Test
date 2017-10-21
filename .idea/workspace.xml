@@ -2,273 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64edc0ef-c0b6-4530-a8fd-f0f25bc103de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/resources/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/resources/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/classes/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/bullet_point.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/collapseall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/failed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/navigator-bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/passed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/skipped.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/test-classes/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/resources/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/classes/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/bullet_point.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/collapseall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/failed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/navigator-bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/passed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/skipped.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/classes/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/bullet_point.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/collapseall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/failed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/navigator-bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/passed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/skipped.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/attribute_mappings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/ProblemOne.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/ProblemOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/SampleFileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/SampleFileWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/SampleSummary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/UtilHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/BioSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/LineEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/SampleAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/resources/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/main/resources/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/java/com/ebi/AttributeMappingReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/java/com/ebi/SampleFileReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/java/com/ebi/SampleFileWriterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/resources/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/resources/input_test1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/resources/input_test2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/resources/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/src/test/resources/output_data1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/classes/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/classes/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/Command line suite/Command line test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/Command line suite/Command line test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/TestSuite.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/emailable-report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/junitreports/TEST-com.ebi.AttributeMappingReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/junitreports/TEST-com.ebi.SampleFileReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/junitreports/TEST-com.ebi.SampleFileWriterTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/Command line test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/groups.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/methods-alphabetical.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/methods-not-run.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/methods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/reporter-output.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/testng.xml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/Command line suite/toc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/old/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/testng-reports.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/testng-reports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/testng-results.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/surefire-reports/testng.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/test-classes/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/test-classes/input_test1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/test-classes/input_test2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/test-classes/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemOne/target/test-classes/output_data1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/ProblemThree.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/DBUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/SampleSummary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/UtilHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/BioSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/DBResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/LineEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/SampleAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/resources/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/AttributeMappingReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleDBReaderWriterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileWriterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/import.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/input_test1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/input_test2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/input_test3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/input_test4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/output_data1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/classes/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/Command line suite/Command line test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/Command line suite/Command line test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/Command line suite/testng-failed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/TestSuite.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/emailable-report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/junitreports/TEST-com.ebi.AttributeMappingReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/junitreports/TEST-com.ebi.SampleDBReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/junitreports/TEST-com.ebi.SampleFileReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/junitreports/TEST-com.ebi.SampleFileWriterTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/Command line test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/groups.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/methods-alphabetical.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/methods-not-run.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/methods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/reporter-output.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/testng.xml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/Command line suite/toc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/old/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/testng-failed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/testng-reports.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/testng-reports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/testng-results.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/surefire-reports/testng.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/import.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/input_test1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/input_test2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/input_test3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/input_test4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemThree/target/test-classes/output_data1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/ProblemTwo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleFileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleFileWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleSummary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/UtilHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/BioSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/LineEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/SampleAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/AttributeMappingReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileWriterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/input_test1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/input_test2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/input_test3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/input_test4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/classes/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/classes/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/Command line suite/Command line test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/Command line suite/Command line test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/TestSuite.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/emailable-report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/junitreports/TEST-com.ebi.AttributeMappingReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/junitreports/TEST-com.ebi.SampleFileReaderTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/junitreports/TEST-com.ebi.SampleFileWriterTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/Command line test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/groups.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/methods-alphabetical.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/methods-not-run.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/methods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/reporter-output.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/testng.xml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/Command line suite/toc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/old/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/testng-reports.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/testng-reports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/testng-results.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/surefire-reports/testng.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/input_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/input_test1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/input_test2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/input_test3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/input_test4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/output_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProblemTwo/target/test-classes/output_data1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/SampleAttribute.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleFileReader.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileReader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleFileWriter.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/pom.xml" afterPath="$PROJECT_DIR$/ProblemTwo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleSummary.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/UtilHelper.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/UtilHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/BioSample.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/BioSample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/resources/output_data.txt" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/output_data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileReaderTest.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileReaderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileWriterTest.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileWriterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data.txt" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data1.txt" afterPath="$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data1.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/ProblemOne/target/" />
     <ignored path="$PROJECT_DIR$/ProblemTwo/target/" />
@@ -288,18 +39,7 @@
     <favorites_list name="EBI-EMBL-Test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProblemThree/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -325,14 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProblemOne/pom.xml" />
-        <option value="$PROJECT_DIR$/ProblemTwo/pom.xml" />
-        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java" />
-        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java" />
-        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/ProblemOne.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/DBResource.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/DBUtil.java" />
-        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataWriter.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileWriter.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/test/java/ebi/SampleFileWriterTest.java" />
@@ -342,7 +76,6 @@
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileReader.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileReaderTest.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/Constants.java" />
-        <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ProblemThree/pom.xml" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java" />
@@ -351,6 +84,28 @@
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBWriter.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleDBReaderTest.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleDBReaderWriterTest.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/UtilHelper.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/pom.xml" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java" />
+        <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AppProperties.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/ProblemOne.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/BioSample.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/SampleSummary.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/dao/SampleFileWriter.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/dao/SampleFileReader.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/pom.xml" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/UtilHelper.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleSummary.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/BioSample.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileReaderTest.java" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java" />
       </list>
     </option>
   </component>
@@ -375,7 +130,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="problem-three" />
+          <option name="myItemId" value="problem-two" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -385,7 +140,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="problem-three" />
+          <option name="myItemId" value="problem-two" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -428,7 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemThree" />
+              <option name="myItemId" value="ProblemTwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemThree" />
+              <option name="myItemId" value="ProblemTwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -447,6 +202,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EBI-EMBL-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProblemTwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -460,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemThree" />
+              <option name="myItemId" value="ProblemTwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -468,7 +241,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -486,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemThree" />
+              <option name="myItemId" value="ProblemTwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -498,25 +271,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EBI-EMBL-Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProblemThree" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="ebi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="helper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,18 +306,19 @@
       <recent name="com.ebi.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ebi" />
+      <recent name="com.ebi.dao" />
       <recent name="com.ebi.helper" />
+      <recent name="com.ebi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdu\github\EBI-EMBL-Test\ProblemOne" />
       <recent name="C:\Users\abdu\github\EBI-EMBL-Test\ProblemThree\src\test\resources" />
       <recent name="C:\Users\abdu\github\EBI-EMBL-Test\ProblemThree\src\main\resources" />
       <recent name="C:\Users\abdu\github\EBI-EMBL-Test\ProblemThree\src\test\java" />
       <recent name="C:\Users\abdu\github\EBI-EMBL-Test\ProblemThree\src\test" />
-      <recent name="C:\Users\abdu\github\EBI-EMBL-Test\ProblemThree\src\main\java\com\ebi" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SampleDBReaderWriterTest">
+  <component name="RunManager" selected="Application.ProblemTwo">
     <configuration default="false" name="ProblemOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -573,79 +337,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ProblemOne" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProblemTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ebi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ebi.ProblemTwo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ProblemTwo" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProblemThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ebi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ebi.ProblemThree" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ProblemThree" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="com.ebi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ebi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ProblemThree" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.ebi" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="SampleDBReaderWriterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -679,6 +370,92 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.ebi (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ebi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ProblemOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.ebi" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.ebi (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ebi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ProblemTwo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.ebi" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProblemTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ebi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ebi.ProblemTwo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProblemTwo" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1085,18 +862,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ProblemOne" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ProblemTwo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ProblemThree" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.com.ebi" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.SampleDBReaderWriterTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SampleDBReaderWriterTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.com.ebi (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.com.ebi (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ProblemTwo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.SampleDBReaderWriterTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ProblemThree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ProblemTwo" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.com.ebi (2)" />
         <item index="2" class="java.lang.String" itemvalue="Application.ProblemOne" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.com.ebi" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ProblemTwo" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.com.ebi (1)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SampleDBReaderWriterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1111,8 +888,30 @@
       <option name="presentableId" value="Default" />
       <updated>1508578310177</updated>
       <workItem from="1508578311550" duration="598000" />
-      <workItem from="1508578973561" duration="21614000" />
+      <workItem from="1508578973561" duration="32530000" />
     </task>
+    <task id="LOCAL-00001" summary="Add app properties loader + Add maven jar/dependency/assembly plugins to create a runnable jar file">
+      <created>1508611855756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508611855756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1508615481871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508615481871</updated>
+    </task>
+    <task id="LOCAL-00003" summary="readme file + App properties">
+      <created>1508615548545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508615548545</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1134,24 +933,24 @@
     <history-entry file="SampleDBReaderTest - 2017.10.21 at 19h 49m 50s.xml">
       <configuration name="SampleDBReaderTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleFileReaderTest - 2017.10.21 at 12h 44m 55s.xml">
-      <configuration name="SampleFileReaderTest" configurationId="TestNG" />
+    <history-entry file="com_ebi_(1) - 2017.10.21 at 22h 28m 45s.xml">
+      <configuration name="com.ebi (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleFileReaderTest_(1) - 2017.10.21 at 13h 00m 55s.xml">
-      <configuration name="SampleFileReaderTest (1)" configurationId="TestNG" />
+    <history-entry file="com_ebi_(2) - 2017.10.21 at 23h 14m 34s.xml">
+      <configuration name="com.ebi (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="com_ebi - 2017.10.21 at 16h 43m 47s.xml">
-      <configuration name="com.ebi" configurationId="TestNG" />
+    <history-entry file="com_ebi_(2) - 2017.10.21 at 23h 15m 12s.xml">
+      <configuration name="com.ebi (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="com_ebi - 2017.10.21 at 16h 49m 50s.xml">
-      <configuration name="com.ebi" configurationId="TestNG" />
+    <history-entry file="com_ebi_(2) - 2017.10.21 at 23h 16m 31s.xml">
+      <configuration name="com.ebi (2)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22212000" />
+    <option name="totallyTimeSpent" value="33128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1185,6 +984,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add app properties loader + Add maven jar/dependency/assembly plugins to create a runnable jar file" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="readme file + App properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme file + App properties" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1194,200 +999,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProblemOne/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/ProblemOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/test/resources/output_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AttributeMappingReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/test/java/com/ebi/AttributeMappingReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com.ebi/helper/SampleFileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="357" column="53" lean-forward="false" selection-start-line="357" selection-start-column="53" selection-end-line="357" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/ProblemOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="28" column="89" lean-forward="false" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="75" column="12" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="75" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/test/resources/output_data1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="116" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/AttributeMappingReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileWriterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#4457#4458#0" expanded="true" />
-            <element signature="e#4488#4489#0" expanded="true" />
-            <element signature="e#4536#4537#0" expanded="true" />
-            <element signature="e#4576#4577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -1522,7 +1133,7 @@
         <state relative-caret-position="227">
           <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1548,14 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="81" column="37" lean-forward="false" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemThree/src/test/resources/import.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1566,8 +1169,277 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProblemThree/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="160">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/SampleAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/service.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/LineEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/BioSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/UtilHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/test/java/com/ebi/AttributeMappingReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/SampleSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/dao/SampleFileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/dao/SampleFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="139" column="10" lean-forward="false" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/LineEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/SampleAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AttributeMappingReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/SampleSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/UtilHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/ProblemOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/test/java/com/ebi/SampleFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/test/java/com/ebi/SampleFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="129" column="98" lean-forward="false" selection-start-line="129" selection-start-column="98" selection-end-line="129" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/model/BioSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/test/resources/input_test4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/ProblemTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="61" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-sample ID	cell type	cell line	sex	depth start	depth end	from collection date	to collection date	latitude and longitude	
+sample ID	cell type	cell line	sex	depth start	depth end	collection date start	collection date end	latitude and longitude	
 ERS008227	null	null	female	null	null	null	null	2.066667 W 12.65 N
 ERS008228	null	null	female	null	null	null	null	11.25 E 43.783333 N
 ERS000030	null	null	null	null	null	null	null	null
@@ -3147,8 +3147,8 @@ ERS762317	null	null	null	null	null	null	null	null
 ERS762323	null	null	null	null	null	null	null	null
 ERS762372	null	null	null	null	null	null	null	null
 ERS762223	null	null	null	null	null	2012	2012	null
-ERS016117	null	null	null	1.4	2.0	2008	2008	51.398 N 84.675 E
-ERS016118	null	null	null	1.4	2.0	2008	2008	51.398 N 84.675 E
+ERS016117	null	null	null	1.7 +/	 0.3	2008	2008	51.398 N 84.675 E
+ERS016118	null	null	null	1.7 +/	 0.3	2008	2008	51.398 N 84.675 E
 ERS017423	null	null	mixed	null	null	null	null	null
 ERS017427	null	null	mixed	null	null	null	null	null
 ERS016641	null	null	null	null	null	2008	2008	null

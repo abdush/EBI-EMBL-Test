@@ -1,4 +1,4 @@
-package com.ebi.helper;
+package com.ebi.dao;
 
 import com.ebi.model.BioSample;
 import org.slf4j.Logger;
@@ -31,6 +31,7 @@ public class SampleFileWriter {
                 bufferedWriter.newLine();
             }
         }
+        logger.debug("Wrote {} lines", bioSamples.size());
     }
 
 }

@@ -1,8 +1,8 @@
 package com.ebi;
 
+import com.ebi.dao.SampleFileReader;
+import com.ebi.dao.SampleFileWriter;
 import com.ebi.helper.AttributeMappingReader;
-import com.ebi.helper.SampleFileReader;
-import com.ebi.helper.SampleFileWriter;
 import com.ebi.model.BioSample;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.slf4j.Logger;
@@ -11,8 +11,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -35,30 +33,6 @@ public class SampleFileReaderTest {
         attributeMappings = attributeMappingReader.getAttributeMappings();
         reader = new SampleFileReader();
         reader.setAttributeMappings(attributeMappings);
-    }
-
-    @Test
-    //This is hack to test private helper methods and probably should not be used!
-    public void checkAttributeMapping() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
-
-        //existing mapped attribute
-        Method method = SampleFileReader.class.getDeclaredMethod("getAttributeMapping", String.class);
-        method.setAccessible(true);
-        String mappedAttribute = (String) method.invoke(reader, "geographic location (latitude and longitude)");
-        assertThat(mappedAttribute).isEqualTo("latitude and longitude");
-
-        //existing non-mapped attribute
-        mappedAttribute = (String) method.invoke(reader, "geographic location (country)");
-        assertThat(mappedAttribute).isNull();
-
-        //non-existing attribute
-        mappedAttribute = (String) method.invoke(reader, "non-existing attribute");
-        assertThat(mappedAttribute).isNull();
-    }
-
-    @Test
-    public void updateSampleAttribute() {
-
     }
 
     //TODO test when line has 0, 1, 2, 3 null values
@@ -117,8 +91,8 @@ public class SampleFileReaderTest {
         assertThat(bioSample).hasFieldOrPropertyWithValue("latitudeAndLongitude", "51.398 N 84.675 E");
         assertThat(bioSample).hasFieldOrPropertyWithValue("sex", null);
         assertThat(bioSample).hasFieldOrPropertyWithValue("depth", "1.7 +/- 0.3");
-        assertThat(bioSample).hasFieldOrPropertyWithValue("depthStart", "1.4");
-        assertThat(bioSample).hasFieldOrPropertyWithValue("depthEnd", "2.0");
+        //assertThat(bioSample).hasFieldOrPropertyWithValue("depthStart", "1.4");
+        //assertThat(bioSample).hasFieldOrPropertyWithValue("depthEnd", "2.0");
         assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("depthAttrCounter", 1);
         assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("latLongAttrCounter", 1);
         assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("otherAttrCounter", 1);
@@ -152,9 +126,8 @@ public class SampleFileReaderTest {
         assertThat(bioSample).hasFieldOrPropertyWithValue("collectionDate", "07-Nov-2012/31-Jan-2013");
         assertThat(bioSample).hasFieldOrPropertyWithValue("fromCollectionDate", "07-Nov-2012");
         assertThat(bioSample).hasFieldOrPropertyWithValue("toCollectionDate", "31-Jan-2013");
-        //TODO 2?
-        assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("collectionDateAttrCounter", 1);
-        assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("otherAttrCounter", 2);
+        assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("collectionDateAttrCounter", 2);
+        assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("otherAttrCounter", 3);
     }
 
     @Test

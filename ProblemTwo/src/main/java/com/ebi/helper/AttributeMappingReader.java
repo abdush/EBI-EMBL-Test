@@ -21,10 +21,10 @@ public class AttributeMappingReader {
         try {
             this.attributeMappings = readAttributeMappings(mappingFile);
         } catch (IOException e) {
-            logger.error("IO Error reading file {}", e);
+            logger.error("IO Error reading file ", e);
             throw e;
         } catch (InvalidFormatException e) {
-            logger.error("Invalid format error reading file {}", e);
+            logger.error("Invalid format error reading file ", e);
             throw e;
         }
     }
@@ -46,7 +46,7 @@ public class AttributeMappingReader {
         for(int i=0; i< header.getLastCellNum(); i++) {
             String cellValue = header.getCell(i).getStringCellValue();
             headers.add(cellValue);
-            attributeMappings.put(cellValue, new TreeSet<>());
+            attributeMappings.put(cellValue, new HashSet<>());
         }
 
         //Read other rows for mapping , ignoring null/empty cells
