@@ -1,8 +1,8 @@
 package com.ebi;
 
 import com.ebi.helper.AttributeMappingReader;
-import com.ebi.helper.SampleFileReader;
-import com.ebi.helper.SampleFileWriter;
+import com.ebi.dao.SampleFileReader;
+import com.ebi.dao.SampleFileWriter;
 import com.ebi.model.BioSample;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.slf4j.Logger;

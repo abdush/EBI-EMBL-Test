@@ -1,5 +1,7 @@
 package com.ebi;
 
+import com.ebi.dao.SampleFileReader;
+import com.ebi.dao.SampleFileWriter;
 import com.ebi.helper.*;
 import com.ebi.model.BioSample;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -18,22 +20,22 @@ public class ProblemOne {
 
     public static void main(String[] args) {
 
-        //TODO read files from Constants or properties
-        final String mappingFile = Constants.ATTRIBUTE_MAPPING_FILE;
-        final String inputFile = Constants.INPUT_FILE;
-        final String outputFile = Constants.OUTPUT_FILE;
-
         try {
-            /*System.out.println("Working Directory = " +
-                    System.getProperty("user.dir"));
-            System.out.println(Paths.get(".").toAbsolutePath().normalize().toString());*/
+            AppProperties appProperties = new AppProperties();
+            final String mappingFile = appProperties.getAttributesMappingFile() != null?
+                    appProperties.getAttributesMappingFile(): Constants.ATTRIBUTE_MAPPING_FILE;
+            final String inputFile = appProperties.getInputFile() != null ?
+                    appProperties.getInputFile() : Constants.INPUT_FILE;
+            final String outputFile = appProperties.getOutputFile() != null ?
+                    appProperties.getOutputFile() : Constants.OUTPUT_FILE;
+
             //Read attributes mapping file
             AttributeMappingReader attributeMappingReader = null;
             try {
                 attributeMappingReader = new AttributeMappingReader(mappingFile);
             } catch (IOException | InvalidFormatException e) {
                 logger.error("Error: Cannot read attributes mapping file {}", mappingFile);
-                logger.error("Exception: {}" + e);
+                logger.error("Exception: " + e);
                 System.exit(1);
             }
 
@@ -45,7 +47,7 @@ public class ProblemOne {
                 bioSamples = sampleFileReader.readSampleTSVFile(inputFile);
             } catch (IOException e) {
                 logger.error("Error: Cannot read sample input file {}", inputFile);
-                logger.error("Exception: {}" + e);
+                logger.error("Exception: " + e);
                 System.exit(1);
             }
 
@@ -55,7 +57,7 @@ public class ProblemOne {
                 sampleFileWriter.writeOutputFile(bioSamples, outputFile);
             } catch (IOException e) {
                 logger.error("Error: Cannot write sample output file {}", outputFile);
-                logger.error("Exception: {}" + e);
+                logger.error("Exception: " + e);
                 System.exit(1);
             }
 
@@ -65,7 +67,7 @@ public class ProblemOne {
 
         } catch (Exception e) {
             logger.error("Error occurred while processing..");
-            logger.error("Exception: {}" + e);
+            logger.error("Exception: " + e);
         }
 
     }

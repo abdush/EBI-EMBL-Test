@@ -1,5 +1,6 @@
-package com.ebi.helper;
+package com.ebi.dao;
 
+import com.ebi.helper.Constants;
 import com.ebi.model.BioSample;
 import com.ebi.model.LineEntry;
 import org.slf4j.Logger;

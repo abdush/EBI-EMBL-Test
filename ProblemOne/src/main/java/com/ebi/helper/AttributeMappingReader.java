@@ -21,10 +21,10 @@ public class AttributeMappingReader {
         try {
             this.attributeMappings = readAttributeMappings(mappingFile);
         } catch (IOException e) {
-            logger.error("IO Error reading file {}", e);
+            logger.error("IO Error reading file ", e);
             throw e;
         } catch (InvalidFormatException e) {
-            logger.error("Invalid format error reading file {}", e);
+            logger.error("Invalid format error reading file ", e);
             throw e;
         }
     }

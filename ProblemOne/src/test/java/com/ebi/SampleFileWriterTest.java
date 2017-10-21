@@ -1,6 +1,6 @@
 package com.ebi;
 
-import com.ebi.helper.SampleFileWriter;
+import com.ebi.dao.SampleFileWriter;
 import com.ebi.model.BioSample;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
