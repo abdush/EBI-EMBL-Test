@@ -5,9 +5,9 @@ package com.ebi.helper;
  */
 public class Constants {
 
-    public static final String ATTRIBUTE_MAPPING_FILE = "ProblemThree\\src\\main\\resources\\attribute_mappings.xlsx";
-    public static final String INPUT_FILE = "ProblemThree\\src\\main\\resources\\input_data.txt";
-    public static final String OUTPUT_FILE = "ProblemThree\\src\\main\\resources\\output_data.txt";
+    public static final String ATTRIBUTE_MAPPING_FILE = "src\\main\\resources\\attribute_mappings.xlsx";
+    public static final String INPUT_FILE = "src\\main\\resources\\input_data.txt";
+    public static final String OUTPUT_FILE = "src\\main\\resources\\output_data.txt";
     public static final String INPUT_DB = "jdbc:mysql://localhost:3307/ebi?rewriteBatchedStatements=true";
     public static final String INPUT_USER = "admin";
     public static final String INPUT_PASS = "admin";

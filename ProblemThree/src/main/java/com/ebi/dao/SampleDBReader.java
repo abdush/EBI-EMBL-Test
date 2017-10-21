@@ -46,7 +46,6 @@ public class SampleDBReader implements SampleDataReader {
                 String value = resultSet.getString(3);
                 LineEntry lineEntry = new LineEntry(sampleId, attribute, value);
                 lineEntry.setAttributeKey(getAttributeMapping(lineEntry.getAttribute()));
-                logger.trace("Row {}", lineEntry);
                 updateSamples(lineEntry);
                 count++;
             }
@@ -58,12 +57,10 @@ public class SampleDBReader implements SampleDataReader {
     // return null if the mapping collection is empty or no map is found.
     private String getAttributeMapping(String attribute) {
         logger.trace("checking for attribute: {}", attribute);
-        for (String key : attributeMappings.keySet()) {
-            for (String value : attributeMappings.get(key)) {
-                if (attribute.equals(value)) {
-                    logger.trace("found: {}", key);
-                    return key;
-                }
+        for (Map.Entry<String, Set<String>> entry: attributeMappings.entrySet()) {
+            if (entry.getValue().contains(attribute)) {
+                logger.trace("found: {}", entry.getKey());
+                return entry.getKey();
             }
         }
         return null;

@@ -29,17 +29,20 @@ public class ProblemThree {
             //Read DB config properties
             DBResource inputDB = null;
             DBResource outputDB= null;
+            String mappingFile = null;
             try {
                 AppProperties appProperties = new AppProperties();
                 inputDB = appProperties.getInputDBConfig();
                 outputDB = appProperties.getOutputDBConfig();
+                mappingFile = appProperties.getAttributesMappingFile() != null?
+                        appProperties.getAttributesMappingFile(): Constants.ATTRIBUTE_MAPPING_FILE;
             } catch (IOException e) {
                 logger.debug("Cannot load properties file {}. Required file to specify DB config.", AppProperties.propertiesFile);
                 System.exit(1);
             }
 
             //Read attributes mapping file
-            final String mappingFile = Constants.ATTRIBUTE_MAPPING_FILE;
+
             AttributeMappingReader attributeMappingReader = null;
             try {
                 attributeMappingReader = new AttributeMappingReader(mappingFile);
@@ -71,8 +74,6 @@ public class ProblemThree {
                 logger.error("Exception: ", e);
                 System.exit(1);
             }
-
-
 
             //Show some summary details
             SampleSummary sampleSummary = new SampleSummary(bioSamples);

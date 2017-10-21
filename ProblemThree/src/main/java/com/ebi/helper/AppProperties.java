@@ -60,4 +60,28 @@ public class AppProperties {
                     "[output.db.url, output.db.user, output.db.pass, output.db.table]");
         return new DBResource(url, user, pass, table);
     }
+
+    public String getAttributesMappingFile() {
+        String path = properties.getProperty("mapping.file");
+        /*if(path == null)
+            throw new RuntimeException("Missing required property for mapping file: " +
+                    "mapping.file");*/
+        return path;
+    }
+
+    public String getInputFile() {
+        String path = properties.getProperty("input.file");
+        /*if(path == null)
+            throw new RuntimeException("Missing required property for input file: " +
+                    "input.file");*/
+        return path;
+    }
+
+    public String getOutputFile() {
+        String path = properties.getProperty("output.file");
+        /*if(path == null)
+            throw new RuntimeException("Missing required property for output file: " +
+                    "output.file");*/
+        return path;
+    }
 }

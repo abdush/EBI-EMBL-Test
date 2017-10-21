@@ -7,7 +7,7 @@ public class BioSample {
 
     private static final String TAB_SEPARATOR = "\t";
     private static final String[] HEADINGS =
-            {"sample ID", "cell type", "cell line", "sex", "depth start", "depth end", "from collection date", "to collection date", "latitude and longitude"};
+            {"sample ID", "cell type", "cell line", "sex", "depth start", "depth end", "collection date start", "collection date end", "latitude and longitude"};
 
     private String sampleId;
     private String cellType;
@@ -135,10 +135,10 @@ public class BioSample {
     }
 
     //attempt to set depth range: start & end.
-    //based on given data this can be as 0-15 or 1.7 +/- 0.3
+    //based on given data this can be as 0-15
     private void setDepthRange(String depth) {
 
-        String[] parts = depth.split("\\+/-");
+        /*String[] parts = depth.split("\\+/-");
         if(parts.length == 2) {
             String leftOperand = parts[0].trim();
             String rightOperand = parts[1].trim();
@@ -148,15 +148,14 @@ public class BioSample {
             setDepthStart(String.valueOf(leftValue - rightValue));
             setDepthEnd(String.valueOf(leftValue + rightValue));
             return;
-        }
+        }*/
 
-        parts = depth.split("-");
+        String[] parts = depth.split("-");
         if(parts.length == 2) {
             setDepthStart(parts[0]);
             setDepthEnd(parts[1]);
             return;
         }
-
         setDepthStart(depth);
         setDepthEnd(depth);
     }
@@ -185,7 +184,6 @@ public class BioSample {
 
     //If String is null, set the value otherwise concatenate to the existing value
     private String setOrConcatenate(String original, String value) {
-        //TODO if value is null??
         if(value == null)
             return original;
         return (original == null ? value: original + " | " + value);

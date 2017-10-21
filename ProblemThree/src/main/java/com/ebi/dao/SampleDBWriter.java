@@ -75,7 +75,7 @@ public class SampleDBWriter implements SampleDataWriter {
                 logger.debug("# of rows: {}", count);
                 long stopTime = System.currentTimeMillis();
                 long elapsedTime = stopTime - startTime;
-                logger.debug("Run insert queries in {} msec", elapsedTime);
+                logger.debug("Run insert queries in {} millisec", elapsedTime);
             }
         }
     }

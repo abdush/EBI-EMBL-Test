@@ -36,6 +36,7 @@ public class SampleFileWriter implements SampleDataWriter{
                 bufferedWriter.newLine();
             }
         }
+        logger.debug("Wrote {} lines", bioSamples.size());
     }
 
     public String getFilePath() {

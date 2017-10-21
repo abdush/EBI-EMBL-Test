@@ -6,14 +6,12 @@ import com.ebi.model.LineEntry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.stream.Stream;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by abdu on 10/18/2017.
@@ -32,12 +30,14 @@ public class SampleFileReader implements SampleDataReader{
     public Map<String, BioSample> readSampleData() throws IOException {
         logger.debug("Reading sample input file: {}", filePath);
         bioSamples = new LinkedHashMap<>();
-        try (Stream<String> lines = Files.lines(Paths.get(filePath))) {
+        try (BufferedReader br = Files.newBufferedReader(Paths.get(filePath))) {
+            List<String> lines = br.lines().collect(Collectors.toList());
             lines.forEach(line -> {
                 LineEntry lineEntry = parseSingleLine(line, Constants.TAB_DELIMITER);
                 if(lineEntry != null)
                     updateSamples(lineEntry);
             });
+            logger.debug("Read {} lines", lines.size());
         }
         return bioSamples;
     }
@@ -51,8 +51,11 @@ public class SampleFileReader implements SampleDataReader{
         if(lineValues.length >= 3) {
             lineEntry = new LineEntry(lineValues[0], lineValues[1], lineValues[2]);
             lineEntry.setAttributeKey(getAttributeMapping(lineEntry.getAttribute()));
-            logger.trace("{}", lineEntry);
+        } else if(lineValues.length == 2) {
+            lineEntry = new LineEntry(lineValues[0], lineValues[1], null);
+            lineEntry.setAttributeKey(getAttributeMapping(lineEntry.getAttribute()));
         }
+        logger.trace("{}", lineEntry);
         return lineEntry;
     }
 
@@ -60,12 +63,10 @@ public class SampleFileReader implements SampleDataReader{
     // return null if the mapping collection is empty or no map is found.
     private String getAttributeMapping(String attribute) {
         logger.trace("checking for attribute: {}", attribute);
-        for (String key : attributeMappings.keySet()) {
-            for (String value : attributeMappings.get(key)) {
-                if (attribute.equals(value)) {
-                    logger.trace("found: {}", key);
-                    return key;
-                }
+        for (Map.Entry<String, Set<String>> entry: attributeMappings.entrySet()) {
+            if (entry.getValue().contains(attribute)) {
+                logger.trace("found: {}", entry.getKey());
+                return entry.getKey();
             }
         }
         return null;
