@@ -96,7 +96,6 @@ public class BioSample {
 
     //If String is null, set the value otherwise concatenate to the existing value
     private String setOrConcatenate(String original, String value) {
-        //TODO if value is null??
         if(value == null)
             return original;
         return (original == null ? value: original + " | " + value);

@@ -21,6 +21,9 @@ public class ProblemOne {
     public static void main(String[] args) {
 
         try {
+            //Set the files path:
+            // first attempt to load from application.properties,
+            //second will use default files in resources folder
             AppProperties appProperties = new AppProperties();
             final String mappingFile = appProperties.getAttributesMappingFile() != null?
                     appProperties.getAttributesMappingFile(): Constants.ATTRIBUTE_MAPPING_FILE;

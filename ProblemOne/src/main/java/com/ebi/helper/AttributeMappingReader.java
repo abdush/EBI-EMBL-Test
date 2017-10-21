@@ -46,7 +46,7 @@ public class AttributeMappingReader {
         for(int i=0; i< header.getLastCellNum(); i++) {
             String cellValue = header.getCell(i).getStringCellValue();
             headers.add(cellValue);
-            attributeMappings.put(cellValue, new TreeSet<>());
+            attributeMappings.put(cellValue, new HashSet<>());
         }
 
         //Read other rows for mapping , ignoring null/empty cells

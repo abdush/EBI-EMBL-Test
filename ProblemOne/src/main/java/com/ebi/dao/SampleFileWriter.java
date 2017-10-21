@@ -31,6 +31,7 @@ public class SampleFileWriter {
                 bufferedWriter.newLine();
             }
         }
+        logger.debug("Wrote {} lines", bioSamples.size());
     }
 
 }

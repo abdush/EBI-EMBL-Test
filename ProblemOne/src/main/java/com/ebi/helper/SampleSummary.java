@@ -22,18 +22,26 @@ public class SampleSummary {
     }
 
     public void showSummary() {
-        logger.debug("Showing Some Summary of sample data....");
+        logger.debug("Showing some Summary of sample data....");
         logger.debug("Total # of samples read: {}", getTotalNumberOfSamples());
-        logger.debug("Total # of samples with more the one depth: {}",
+        logger.debug("Total # of samples with lat & long attribute provided twice: {}",
+                getNumberOfSamplesWithTwoLatLongAttribute());
+        logger.debug("Total # of samples with depth attribute provided more than once: {}",
                 getNumberOfSamplesWithMoreThanOneDepthAttribute());
-        logger.debug("Total # of samples with more the one collection date: {}",
+        logger.debug("Total # of samples with collection date attribute provided more than once: {}",
                 getNumberOfSamplesWithMoreThanOneDateAttribute());
-        logger.debug("Total # of samples with more the one any attribute: {}",
+        logger.debug("Total # of samples with (any) attribute provided more than once: {}",
                 getNumberOfSamplesWithMoreThanOneAttribute());
     }
 
     public int getTotalNumberOfSamples() {
         return bioSamples.size();
+    }
+
+    public long getNumberOfSamplesWithTwoLatLongAttribute() {
+        return bioSamples.values().stream()
+                .filter(sample -> sample.getSampleSummary().getLatLongAttrCounter() == 2)
+                .count();
     }
 
     public long getNumberOfSamplesWithMoreThanOneAttribute() {
