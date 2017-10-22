@@ -26,8 +26,8 @@ import java.util.stream.Collectors;
     ERS000042	Latitude	40
  *
  * The reader class uses an attributes mapping Map to group synonym attributes under one key attribute.
- * The attributes mapping is defined in an 'xslx' excel file read and provided by by
- * @{@link com.ebi.helper.AttributeMappingReader}.
+ * The attributes mapping is defined in an 'xlsx' excel file read and provided by
+ * @ {@link com.ebi.helper.AttributeMappingReader}.
  * The reader class maintains a Map of samples with sample ids, and its associated attributes represented
  * as @{@link BioSample} object. @{@link LinkedHashMap} is used as to maintain insertion order.
  *

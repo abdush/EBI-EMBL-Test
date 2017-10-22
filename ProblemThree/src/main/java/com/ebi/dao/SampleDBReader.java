@@ -1,5 +1,6 @@
 package com.ebi.dao;
 
+import com.ebi.helper.UtilHelper;
 import com.ebi.model.BioSample;
 import com.ebi.model.DBResource;
 import com.ebi.model.LineEntry;
@@ -13,6 +14,24 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * Reader class which reads sample data provided in a db table and returns a Map of
+ * samples @{@link BioSample} with its provided details.
+ * Accepts @{@link DBResource} which specifies the input db url & table name.
+ * Each row in the db table includes at most three values.
+ * First value is the sample id, second value is an attribute name, followed by its value.
+ *
+ * Example records:
+ ERS008228	sex	female
+ ERS000030	Country	Czech Republic
+ ERS000042	Longitude	-83
+ ERS000042	Latitude	40
+ *
+ * The reader class uses an attributes mapping Map to group synonym attributes under one key attribute.
+ * The attributes mapping is defined in an 'xlsx' excel file read and provided by
+ * @ {@link com.ebi.helper.AttributeMappingReader}.
+ * The reader class maintains a Map of samples with sample ids, and its associated attributes represented
+ * as @{@link BioSample} object. @{@link LinkedHashMap} is used as to maintain insertion order.
+ *
  * Created by abdu on 10/21/2017.
  */
 public class SampleDBReader implements SampleDataReader {
@@ -26,6 +45,7 @@ public class SampleDBReader implements SampleDataReader {
     }
 
     public Map<String, BioSample> readSampleData() throws SQLException {
+        bioSamples = new LinkedHashMap<>();
         logger.debug("Reading from input table: {}", dbResource.getTableName());
         String query = "SELECT * FROM " + dbResource.getTableName();
         processQueryResult(dbResource.getDatabaseUrl(),
@@ -33,7 +53,7 @@ public class SampleDBReader implements SampleDataReader {
         return bioSamples;
     }
 
-    public void processQueryResult(String dbUrl, String user, String pass, String selectQuery) throws SQLException {
+    private void processQueryResult(String dbUrl, String user, String pass, String selectQuery) throws SQLException {
         try(Connection connection = DriverManager.getConnection(dbUrl, user, pass);
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(selectQuery)) {
@@ -45,74 +65,14 @@ public class SampleDBReader implements SampleDataReader {
                 String attribute = resultSet.getString(2);
                 String value = resultSet.getString(3);
                 LineEntry lineEntry = new LineEntry(sampleId, attribute, value);
-                lineEntry.setAttributeKey(getAttributeMapping(lineEntry.getAttribute()));
-                updateSamples(lineEntry);
+                lineEntry.setAttributeKey(UtilHelper.getAttributeMapping(attributeMappings, lineEntry.getAttribute()));
+                UtilHelper.updateSamples(bioSamples,lineEntry);
                 count++;
             }
             logger.debug("# of Rows {}", count);
         }
     }
 
-    //Checks the mapping for the given attribute.
-    // return null if the mapping collection is empty or no map is found.
-    private String getAttributeMapping(String attribute) {
-        logger.trace("checking for attribute: {}", attribute);
-        for (Map.Entry<String, Set<String>> entry: attributeMappings.entrySet()) {
-            if (entry.getValue().contains(attribute)) {
-                logger.trace("found: {}", entry.getKey());
-                return entry.getKey();
-            }
-        }
-        return null;
-    }
-
-    //Gets the sampleId from the current line entry & update the samples map.
-    //The mapped attribute value is updated in the sample object.
-    private void updateSamples(LineEntry lineEntry) {
-        String sampleId = lineEntry.getSampleId();
-        BioSample sample = bioSamples.get(sampleId);
-        if(sample == null)
-            bioSamples.put(sampleId, new BioSample(sampleId));
-        updateSampleAttribute(bioSamples.get(sampleId), lineEntry.getAttributeKey(), lineEntry.getValue());
-    }
-
-    //Update the given sample attribute(from the  with the given value.
-    //The implementation will set or concatenate the value whether the attribute has a value before or not.
-    //The sample summary statistics is updated.
-    private BioSample updateSampleAttribute(BioSample sample, String attribute, String value) {
-
-        if(attribute == null) {
-            sample.setNonMappedAttribute();
-            return sample;
-        }
-
-        switch (attribute) {
-            case "Cell type":
-                sample.setCellType(value);
-                break;
-            case "Cell line":
-                sample.setCellLine(value);
-                break;
-            case "Sex":
-                sample.setSex(value);
-                break;
-            case "Depth":
-                sample.setDepth(value);
-                break;
-            case "Collection date":
-                sample.setCollectionDate(value);
-                break;
-            case "latitude and longitude":
-                sample.setLatitudeAndLongitude(value);
-                break;
-            default:
-                sample.setNonMappedAttribute();
-                break;
-        }
-        return sample;
-    }
-
-    //TODO: constructor(what if no mappings?)
     public void setAttributeMappings(Map<String, Set<String>> attributeMappings) {
         this.attributeMappings = attributeMappings;
     }

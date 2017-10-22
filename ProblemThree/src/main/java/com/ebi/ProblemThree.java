@@ -42,7 +42,6 @@ public class ProblemThree {
             }
 
             //Read attributes mapping file
-
             AttributeMappingReader attributeMappingReader = null;
             try {
                 attributeMappingReader = new AttributeMappingReader(mappingFile);
@@ -59,7 +58,7 @@ public class ProblemThree {
             try {
                 bioSamples = sampleDBReader.readSampleData();
             } catch (SQLException e) {
-                logger.error("Error: Cannot read sample input table {}", Constants.INPUT_TABLE);
+                logger.error("Error: Cannot read sample input table {}", inputDB.getTableName());
                 logger.error("Exception: " + e);
                 System.exit(1);
             }
@@ -69,7 +68,7 @@ public class ProblemThree {
             try {
                 sampleDBWriter.writeSampleData(bioSamples);
             } catch (SQLException e) {
-                logger.error("Error: Cannot write sample output table {}", Constants.OUTPUT_TABLE);
+                logger.error("Error: Cannot write sample output table {}", outputDB.getTableName());
                 logger.error("Exception: " + e);
                 logger.error("Exception: ", e);
                 System.exit(1);

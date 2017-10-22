@@ -10,6 +10,13 @@ import java.io.IOException;
 import java.util.*;
 
 /**
+ * Reader class for attributes mapping file.
+ * Reads an attribute mapping excel file (.xlsx) and stores the mappings in a Map<String, Set<String>>.
+ * The map key string is the attribute key name, and the Set<String> value are all the attribute names
+ * representing the same attribute.
+ *
+ * Example: SEX, sex, Sex, gender are all group under one key name, Sex.
+ *
  * Created by abdu on 10/18/2017.
  */
 public class AttributeMappingReader {
@@ -33,6 +40,14 @@ public class AttributeMappingReader {
         return attributeMappings;
     }
 
+    /**
+     * Reads an attribute mapping excel file and stores the mappings in a Map of string & set of strings.
+     * @param file the attribute mapping file (.xlsx). Each column represents a group of related attributes.
+     * @return Map of string & Set of strings, where the key is the attribute name,
+     * the value is the set of strings under the same key name.
+     * @throws IOException if file can't be read.
+     * @throws InvalidFormatException if file format is not a valid xlsx file.
+     */
     private Map<String, Set<String>> readAttributeMappings(String file) throws IOException, InvalidFormatException {
         logger.debug("Reading attributes mapping file: {}", file);
 

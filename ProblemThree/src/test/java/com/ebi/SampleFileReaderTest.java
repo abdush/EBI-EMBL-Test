@@ -3,6 +3,7 @@ package com.ebi;
 import com.ebi.dao.SampleFileReader;
 import com.ebi.dao.SampleFileWriter;
 import com.ebi.helper.AttributeMappingReader;
+import com.ebi.helper.UtilHelper;
 import com.ebi.model.BioSample;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.slf4j.Logger;
@@ -11,8 +12,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -39,27 +38,20 @@ public class SampleFileReaderTest {
     }
 
     @Test
-    //This is hack to test private helper methods and probably should not be used!
-    public void checkAttributeMapping() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
-
-        //existing mapped attribute
-        Method method = SampleFileReader.class.getDeclaredMethod("getAttributeMapping", String.class);
-        method.setAccessible(true);
-        String mappedAttribute = (String) method.invoke(reader, "geographic location (latitude and longitude)");
+    public void checkAttributeMapping() {
+        String mappedAttribute = UtilHelper.getAttributeMapping(
+                attributeMappings, "geographic location (latitude and longitude)");
         assertThat(mappedAttribute).isEqualTo("latitude and longitude");
 
         //existing non-mapped attribute
-        mappedAttribute = (String) method.invoke(reader, "geographic location (country)");
+        mappedAttribute = UtilHelper.getAttributeMapping(
+                attributeMappings, "geographic location (country)");
         assertThat(mappedAttribute).isNull();
 
         //non-existing attribute
-        mappedAttribute = (String) method.invoke(reader, "non-existing attribute");
+        mappedAttribute = UtilHelper.getAttributeMapping(
+                attributeMappings, "non-existing attribute");
         assertThat(mappedAttribute).isNull();
-    }
-
-    @Test
-    public void updateSampleAttribute() {
-
     }
 
     //TODO test when line has 0, 1, 2, 3 null values
@@ -89,7 +81,7 @@ public class SampleFileReaderTest {
         assertThat(samples).containsKey("ERS000042");
         BioSample bioSample = samples.get("ERS000042");
         assertThat(bioSample).isNotNull();
-        assertThat(bioSample).hasFieldOrPropertyWithValue("latitudeAndLongitude", "-83 | 40");
+        assertThat(bioSample).hasFieldOrPropertyWithValue("latitudeAndLongitude", "40 | -83");
         assertThat(bioSample).hasFieldOrPropertyWithValue("sex", null);
         assertThat(bioSample).hasFieldOrPropertyWithValue("depth", null);
         assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("sexAttrCounter", 0);

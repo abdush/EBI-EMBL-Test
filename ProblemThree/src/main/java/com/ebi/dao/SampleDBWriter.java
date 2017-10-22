@@ -10,6 +10,16 @@ import java.sql.*;
 import java.util.Map;
 
 /**
+ * Writer class which writes bio-sample records into a db table.
+ * Accepts @{@link DBResource} which specifies the output db url & table name.
+ * Given a map of sample objects @{@link BioSample}, it writes the sample information into the table.
+ * Each row contains the provided attributes for a specific sample.
+ *
+ * Example output:
+ sample_id	cell_type	cell_line	sex	depth_start	depth_end	collection_date_start	collection_date_end	latitude_and_longitude
+ 1	null	value1	male	0	15	null	null	null
+ 2	value2	null	male	null	null	1900	2005	null
+ *
  * Created by abdu on 10/21/2017.
  */
 public class SampleDBWriter implements SampleDataWriter {
@@ -27,7 +37,18 @@ public class SampleDBWriter implements SampleDataWriter {
         executeQuery(dbResource, bioSamples);
     }
 
-    public void executeQuery(DBResource dbResource, Map<String, BioSample> bioSamples) throws SQLException {
+    /**
+     * Writes the bio-samples map into the db table specified in the given db resource.
+     * @param dbResource db url, user, pass, and table where the output to be stored.
+     * @param bioSamples map of samples records to be written to the file.
+     * @throws SQLException if any db issue occurs.
+     *
+     * The output table with columns for the sample attribute will be created.
+     * If a table with same name exists in the db, it will be dropped first.
+     * Writes each sample record into its own row in the table.
+     * The insert statement uses a batch with default size of 1000.
+     */
+    private void executeQuery(DBResource dbResource, Map<String, BioSample> bioSamples) throws SQLException {
         String tableName = dbResource.getTableName();
         String dropTable =
                 "DROP TABLE IF EXISTS " + tableName;
@@ -48,6 +69,7 @@ public class SampleDBWriter implements SampleDataWriter {
             logger.debug("Creating table: {}", tableName);
             statement.executeUpdate(createTable);
 
+            //need to separate it from the first try cos of H2 test db error: table not found!
             try (PreparedStatement preparedStatement = connection.prepareStatement(insertData)) {
 
                 //TODO commit
@@ -65,7 +87,6 @@ public class SampleDBWriter implements SampleDataWriter {
                     preparedStatement.setString(7, bioSample.getFromCollectionDate());
                     preparedStatement.setString(8, bioSample.getToCollectionDate());
                     preparedStatement.setString(9, bioSample.getLatitudeAndLongitude());
-                    //TODO batch
                     preparedStatement.addBatch();
                     count++;
                     if (count % Constants.DB_BATCH_SIZE == 0)

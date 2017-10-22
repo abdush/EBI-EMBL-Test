@@ -1,6 +1,7 @@
 package com.ebi.dao;
 
 import com.ebi.helper.Constants;
+import com.ebi.helper.UtilHelper;
 import com.ebi.model.BioSample;
 import com.ebi.model.LineEntry;
 import org.slf4j.Logger;
@@ -14,6 +15,24 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * Reader class which reads sample data provided in given file and returns a Map of
+ * samples @{@link BioSample} with its provided details.
+ * Accepts the tSV file path.
+ * The file is in a TSV (Tab Separated Value) file format, where each row includes at most three values.
+ * First value is the sample id, second value is an attribute name, followed by its value.
+ *
+ *  Example records:
+    ERS008228	sex	female
+    ERS000030	Country	Czech Republic
+    ERS000042	Longitude	-83
+    ERS000042	Latitude	40
+ *
+ * The reader class uses an attributes mapping Map to group synonym attributes under one key attribute.
+ * The attributes mapping is defined in an 'xlsx' excel file read and provided by
+ * @ {@link com.ebi.helper.AttributeMappingReader}.
+ * The reader class maintains a Map of samples with sample ids, and its associated attributes represented
+ * as @{@link BioSample} object. @{@link LinkedHashMap} is used as to maintain insertion order.
+ *
  * Created by abdu on 10/18/2017.
  */
 public class SampleFileReader implements SampleDataReader{
@@ -27,15 +46,25 @@ public class SampleFileReader implements SampleDataReader{
         this.filePath = filePath;
     }
 
+    /**
+     * Reads the object's TSV file and returns Map for each sample with its provided information.
+     * The TSV sample file with triples sample id, attribute name, attribute value
+     * @return Map of sample ids and @{@link BioSample} with the sample key attributes
+     * filled where provided in the file.
+     * @throws IOException if the given file can't be read
+     * Parses each single line and update the samples map accordingly.
+     * @see @{@link UtilHelper}
+     */
     public Map<String, BioSample> readSampleData() throws IOException {
         logger.debug("Reading sample input file: {}", filePath);
         bioSamples = new LinkedHashMap<>();
         try (BufferedReader br = Files.newBufferedReader(Paths.get(filePath))) {
             List<String> lines = br.lines().collect(Collectors.toList());
+            //TODO not good practice to mutate in a Java8 stream!!
             lines.forEach(line -> {
                 LineEntry lineEntry = parseSingleLine(line, Constants.TAB_DELIMITER);
                 if(lineEntry != null)
-                    updateSamples(lineEntry);
+                    UtilHelper.updateSamples(bioSamples, lineEntry);
             });
             logger.debug("Read {} lines", lines.size());
         }
@@ -43,82 +72,29 @@ public class SampleFileReader implements SampleDataReader{
     }
 
     //TODO some lines doesn't have 3 cols
-    //Parses a single line into sampleId, attribute, and value
+    /**
+     * Parses a single line into sampleId, attribute name, and attribute value.
+     * @param line a single line read from the TSV file
+     * @param delimiter used as value separator (Tab '\t' is used here)
+     * @return representation of the three values (if any) as a @{@link LineEntry} object.
+     * if the third value (attribute value) is not found in the line, its assumed as 'null'.
+     * The key attribute name is set on the object, if found, based on the attributes mapping Map.
+     */
     private LineEntry parseSingleLine(String line, String delimiter) {
         String[] lineValues = line.split(delimiter);
         //assert(lineValues.length == 3);
         LineEntry lineEntry = null;
-        if(lineValues.length >= 3) {
+        if (lineValues.length >= 3) {
             lineEntry = new LineEntry(lineValues[0], lineValues[1], lineValues[2]);
-            lineEntry.setAttributeKey(getAttributeMapping(lineEntry.getAttribute()));
-        } else if(lineValues.length == 2) {
+            lineEntry.setAttributeKey(UtilHelper.getAttributeMapping(attributeMappings, lineEntry.getAttribute()));
+        } else if (lineValues.length == 2) {
             lineEntry = new LineEntry(lineValues[0], lineValues[1], null);
-            lineEntry.setAttributeKey(getAttributeMapping(lineEntry.getAttribute()));
+            lineEntry.setAttributeKey(UtilHelper.getAttributeMapping(attributeMappings, lineEntry.getAttribute()));
         }
         logger.trace("{}", lineEntry);
         return lineEntry;
     }
 
-    //Checks the mapping for the given attribute.
-    // return null if the mapping collection is empty or no map is found.
-    private String getAttributeMapping(String attribute) {
-        logger.trace("checking for attribute: {}", attribute);
-        for (Map.Entry<String, Set<String>> entry: attributeMappings.entrySet()) {
-            if (entry.getValue().contains(attribute)) {
-                logger.trace("found: {}", entry.getKey());
-                return entry.getKey();
-            }
-        }
-        return null;
-    }
-
-    //Gets the sampleId from the current line entry & update the samples map.
-    //The mapped attribute value is updated in the sample object.
-    private void updateSamples(LineEntry lineEntry) {
-        String sampleId = lineEntry.getSampleId();
-        BioSample sample = bioSamples.get(sampleId);
-        if(sample == null)
-            bioSamples.put(sampleId, new BioSample(sampleId));
-        updateSampleAttribute(bioSamples.get(sampleId), lineEntry.getAttributeKey(), lineEntry.getValue());
-    }
-
-    //Update the given sample attribute(from the  with the given value.
-    //The implementation will set or concatenate the value whether the attribute has a value before or not.
-    //The sample summary statistics is updated.
-    private BioSample updateSampleAttribute(BioSample sample, String attribute, String value) {
-
-        if(attribute == null) {
-            sample.setNonMappedAttribute();
-            return sample;
-        }
-
-        switch (attribute) {
-            case "Cell type":
-                sample.setCellType(value);
-                break;
-            case "Cell line":
-                sample.setCellLine(value);
-                break;
-            case "Sex":
-                sample.setSex(value);
-                break;
-            case "Depth":
-                sample.setDepth(value);
-                break;
-            case "Collection date":
-                sample.setCollectionDate(value);
-                break;
-            case "latitude and longitude":
-                sample.setLatitudeAndLongitude(value);
-                break;
-            default:
-                sample.setNonMappedAttribute();
-                break;
-        }
-        return sample;
-    }
-
-    //TODO: constructor(what if no mappings?)
     public void setAttributeMappings(Map<String, Set<String>> attributeMappings) {
         this.attributeMappings = attributeMappings;
     }

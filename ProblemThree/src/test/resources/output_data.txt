@@ -2,14 +2,14 @@ sample ID	cell type	cell line	sex	depth start	depth end	collection date start	co
 ERS008227	null	null	female	null	null	null	null	2.066667 W 12.65 N
 ERS008228	null	null	female	null	null	null	null	11.25 E 43.783333 N
 ERS000030	null	null	null	null	null	null	null	null
-ERS000042	null	null	null	null	null	null	null	-83 | 40
+ERS000042	null	null	null	null	null	null	null	40 | -83
 ERS000067	null	null	null	null	null	null	null	missing | missing
 ERS000065	null	null	null	null	null	null	null	36 | -120
-ERS000053	null	null	null	null	null	null	null	11.0 | 49.6
-ERS000078	null	null	null	null	null	null	null	81 | 7.5
-ERS000056	null	null	null	null	null	null	null	10 | 51
+ERS000053	null	null	null	null	null	null	null	49.6 | 11.0
+ERS000078	null	null	null	null	null	null	null	7.5 | 81
+ERS000056	null	null	null	null	null	null	null	51 | 10
 ERS000047	null	null	null	null	null	null	null	16.4 | 102.8
-ERS000072	null	null	null	null	null	null	null	-2 | 53
+ERS000072	null	null	null	null	null	null	null	53 | -2
 ERS000069	null	null	null	null	null	null	null	37.77 | -122.46
 ERS000151	null	null	female	null	null	null	null	null
 ERS000160	null	null	female	null	null	null	null	null
@@ -28,20 +28,20 @@ ERS012334	null	null	null	null	null	1997	1997	null
 ERS012337	null	null	null	null	null	1997	1997	null
 ERS012343	null	null	null	null	null	2002	2002	null
 ERS000073	null	null	null	null	null	null	null	-23 | -46
-ERS000074	null	null	null	null	null	null	null	67 | 25
+ERS000074	null	null	null	null	null	null	null	25 | 67
 ERS000059	null	null	null	null	null	null	null	37 | -109
 ERS000046	null	null	null	null	null	null	null	-26 | 28
 ERS000077	null	null	null	null	null	null	null	51.5 | 0
 ERS000052	null	null	null	null	null	null	null	missing | missing
 ERS000061	null	null	null	null	null	null	null	13.4 | -15
-ERS000064	null	null	null	null	null	null	null	-3.2 | 55.9
+ERS000064	null	null	null	null	null	null	null	55.9 | -3.2
 ERS000063	null	null	null	null	null	null	null	missing | missing
-ERS000055	null	null	null	null	null	null	null	-2 | 53
-ERS000048	null	null	null	null	null	null	null	-3.8 | 56.5
+ERS000055	null	null	null	null	null	null	null	53 | -2
+ERS000048	null	null	null	null	null	null	null	56.5 | -3.8
 ERS000058	null	null	null	null	null	null	null	10.76 | 106.66
 ERS000050	null	null	null	null	null	null	null	53 | -2
 ERS000038	null	null	null	null	null	null	null	missing | missing
-ERS000068	null	null	null	null	null	null	null	-3.1 | 51.0
+ERS000068	null	null	null	null	null	null	null	51.0 | -3.1
 ERS012346	null	null	null	null	null	2002	2002	null
 ERS000159	null	null	male	null	null	null	null	null
 ERS012349	null	null	null	null	null	2000	2000	null
@@ -54,12 +54,12 @@ ERS012367	null	null	null	null	null	2000	2000	null
 ERS000163	null	null	male	null	null	null	null	null
 ERS000051	null	null	null	null	null	null	null	57 | 24
 ERS000060	null	null	null	null	null	null	null	11 | 78
-ERS000039	null	null	null	null	null	null	null	-79 | 36
+ERS000039	null	null	null	null	null	null	null	36 | -79
 ERS000045	null	null	null	null	null	null	null	51.52 | -0.10
 ERS000057	null	null	null	null	null	null	null	missing | missing
-ERS000040	null	null	null	null	null	null	null	-88 | 42
-ERS000071	null	null	null	null	null	null	null	-2.9 | 53.4
-ERS000049	null	null	null	null	null	null	null	-2 | 53
+ERS000040	null	null	null	null	null	null	null	42 | -88
+ERS000071	null	null	null	null	null	null	null	53.4 | -2.9
+ERS000049	null	null	null	null	null	null	null	53 | -2
 ERS000054	null	null	null	null	null	null	null	missing | missing
 ERS000070	null	null	null	null	null	null	null	missing | missing
 ERS000083	null	null	Mixed	null	null	null	null	null
@@ -1985,19 +1985,19 @@ ERS009899	null	null	null	null	null	2003-01-01	2003-01-01	null
 ERS014067	null	null	null	null	null	2009	2009	null
 ERS014053	null	null	null	null	null	2009	2009	null
 ERS014059	null	null	null	null	null	2009	2009	null
-ERS009173	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009174	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009175	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009176	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009177	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009179	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009180	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009181	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009182	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009184	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009185	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009186	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
-ERS009187	null	null	null	null	null	null	null	88º 14’ W | 40º 02’ N
+ERS009173	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009174	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009175	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009176	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009177	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009179	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009180	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009181	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009182	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009184	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009185	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009186	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
+ERS009187	null	null	null	null	null	null	null	40º 02’ N | 88º 14’ W
 ERS009493	null	null	female	null	null	null	null	null
 ERS009494	null	null	female	null	null	null	null	null
 ERS009495	null	null	female	null	null	null	null	null

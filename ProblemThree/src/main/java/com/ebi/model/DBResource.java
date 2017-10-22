@@ -1,6 +1,10 @@
 package com.ebi.model;
 
 /**
+ * Representation for database resource.
+ * Holds the db url, user, pass, and table name which are related to the sample data.
+ * Input & Output db resources for the sample may be different.
+ *
  * Created by abdu on 10/21/2017.
  */
 public class DBResource {
