@@ -1,6 +1,22 @@
 package com.ebi.model;
 
 /**
+ * Representation of bio-sample record.
+ * Includes information such as sample id, cell type, cell line, sex, depth, etc.
+ * It also includes summary statistics @{@link SampleSummary} for the attributes
+ * showing how many time each attribute was actually set for this sample.
+ * For any attribute, If it was set more than once, the attribute final value will be a
+ * concatenation of the new value with previous one (using | symbol).
+ *
+ * For Longitude & Latitude: it attempts to always put them in the order (lat | long).
+ * This is achieved by investigating the mapping file for the different possible values.
+ *
+ * Special handling is applied for depth & collection date fields to interpret ranges.
+ * If depth value has a '-' symbol between two strings, the left part is assumed the depth start,
+ * and the right part the depth end.
+ * Similarly, if collection date has a '/' between two parts, the left part is assumed the
+ * collection date start, and the right part the collection date end.
+ *
  * Created by abdu on 10/18/2017.
  */
 public class BioSample {
@@ -20,6 +36,8 @@ public class BioSample {
     private String fromCollectionDate;
     private String toCollectionDate;
     private String latitudeAndLongitude;
+    private String latitude;
+    private String longitude;
     private SampleSummary sampleSummary = new SampleSummary();
 
     public BioSample() {}
@@ -124,6 +142,32 @@ public class BioSample {
     public void setLatitudeAndLongitude(String latitudeAndLongitude) {
         this.latitudeAndLongitude=setOrConcatenate(this.latitudeAndLongitude,latitudeAndLongitude);
         sampleSummary.incrementLatLongAttrCounter();
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+        sampleSummary.incrementLatLongAttrCounter();
+        if(latitude == null)
+            return;
+        this.latitudeAndLongitude = this.latitudeAndLongitude == null ?
+                latitude : latitude + " | " + this.latitudeAndLongitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+        sampleSummary.incrementLatLongAttrCounter();
+        if(longitude == null)
+            return;
+        this.latitudeAndLongitude = this.latitudeAndLongitude == null ?
+                longitude : this.latitudeAndLongitude + " | " + longitude;
     }
 
     public SampleSummary getSampleSummary() {

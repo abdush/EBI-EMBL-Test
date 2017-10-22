@@ -56,11 +56,6 @@ public class SampleFileReaderTest {
         assertThat(mappedAttribute).isNull();
     }
 
-    @Test
-    public void updateSampleAttribute() {
-
-    }
-
     //TODO test when line has 0, 1, 2, 3 null values
     @Test
     public void parseInputFileTest1() throws IOException {

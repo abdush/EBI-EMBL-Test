@@ -26,7 +26,7 @@ public class ProblemTwo {
         try {
             //Set the files path:
             // first attempt to load from application.properties,
-            //second will use default files in resources folder
+            //second use default files in resources folder
             AppProperties appProperties = new AppProperties();
             final String mappingFile = appProperties.getAttributesMappingFile() != null?
                     appProperties.getAttributesMappingFile(): Constants.ATTRIBUTE_MAPPING_FILE;
@@ -67,7 +67,7 @@ public class ProblemTwo {
                 System.exit(1);
             }
 
-            //Show some summary details
+            //Show some summary details about the samples
             SampleSummary sampleSummary = new SampleSummary(bioSamples);
             sampleSummary.showSummary();
 

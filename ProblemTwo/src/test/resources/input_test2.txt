@@ -3,5 +3,5 @@ ERS008227	geographic location (latitude and longitude)	2.066667 W 12.65 N
 ERS008227	sex	female
 ERS000042	Longitude	-83
 ERS000042	Latitude	40
-ERS000067	Latitude	missing
-ERS000067	Longitude	missing
+ERS000067	Latitude	missing1
+ERS000067	Longitude	missing2

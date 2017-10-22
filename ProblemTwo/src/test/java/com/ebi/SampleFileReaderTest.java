@@ -60,7 +60,7 @@ public class SampleFileReaderTest {
         assertThat(samples).containsKey("ERS000042");
         BioSample bioSample = samples.get("ERS000042");
         assertThat(bioSample).isNotNull();
-        assertThat(bioSample).hasFieldOrPropertyWithValue("latitudeAndLongitude", "-83 | 40");
+        assertThat(bioSample).hasFieldOrPropertyWithValue("latitudeAndLongitude", "40 | -83");
         assertThat(bioSample).hasFieldOrPropertyWithValue("sex", null);
         assertThat(bioSample).hasFieldOrPropertyWithValue("depth", null);
         assertThat(bioSample.getSampleSummary()).hasFieldOrPropertyWithValue("sexAttrCounter", 0);

@@ -1,6 +1,10 @@
 package com.ebi.model;
 
 /**
+ * Representation for a single line from the samples TSV.
+ * Stores the sample id, attribute name, and attribute value from a given line.
+ * Stores also the key attribute name based on attributes mapping.
+ *
  * Created by abdu on 10/19/2017.
  */
 public class LineEntry {
