@@ -35,7 +35,9 @@ are	within	the	same	database.
 Your	code	should	be	able	to	compile	and	we	may	set	the	connection	details	to	
 internal	test	databases	to	test	how	they	run.
 _________________________________________________________________________
+`Java`
 
+Java version 8 is used.
 
 `How to run`
 
