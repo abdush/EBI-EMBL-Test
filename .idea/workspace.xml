@@ -3,25 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="64edc0ef-c0b6-4530-a8fd-f0f25bc103de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/dao/SampleFileReader.java" afterPath="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/dao/SampleFileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBReader.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBWriter.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataReader.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataWriter.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDataWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileReader.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileWriter.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AttributeMappingReader.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/SampleSummary.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/SampleSummary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/UtilHelper.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/UtilHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/BioSample.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/BioSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/DBResource.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/DBResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/LineEntry.java" afterPath="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/LineEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileReaderTest.java" afterPath="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileReaderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemThree/src/test/resources/output_data.txt" afterPath="$PROJECT_DIR$/ProblemThree/src/test/resources/output_data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileReader.java" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/ProblemOne/target/" />
     <ignored path="$PROJECT_DIR$/ProblemTwo/target/" />
@@ -41,7 +26,46 @@
     <favorites_list name="EBI-EMBL-Test" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="650">
+                <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ebi_sample_code.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebi_sample_code.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="29" column="80" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="29" selection-end-column="80" />
+              <folding>
+                <element signature="method#loadProperties#0;class#AppProperties#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,12 +104,9 @@
         <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/UtilHelper.java" />
         <option value="$PROJECT_DIR$/ProblemOne/pom.xml" />
         <option value="$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/Constants.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ProblemTwo/pom.xml" />
         <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/UtilHelper.java" />
         <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/AttributeMappingReader.java" />
-        <option value="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/helper/Constants.java" />
         <option value="$PROJECT_DIR$/ProblemThree/pom.xml" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/Constants.java" />
@@ -118,11 +139,14 @@
         <option value="$PROJECT_DIR$/ProblemTwo/src/main/java/com/ebi/dao/SampleFileReader.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileWriter.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/ProblemThree.java" />
-        <option value="$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleFileReader.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/dao/SampleDBReader.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/test/java/com/ebi/SampleFileReaderTest.java" />
         <option value="$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/UtilHelper.java" />
+        <option value="$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -292,6 +316,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ebi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EBI-EMBL-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProblemThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ebi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -895,7 +949,7 @@
       <workItem from="1508578311550" duration="598000" />
       <workItem from="1508578973561" duration="33975000" />
       <workItem from="1508661610047" duration="1204000" />
-      <workItem from="1508678275558" duration="17891000" />
+      <workItem from="1508678275558" duration="21311000" />
     </task>
     <task id="LOCAL-00001" summary="Add app properties loader + Add maven jar/dependency/assembly plugins to create a runnable jar file">
       <created>1508611855756</created>
@@ -946,7 +1000,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508700679405</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Problem Three: Add Javadocs + Refactor DB &amp; file reader common functionality into helper class.">
+      <created>1508705757636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508705757636</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -982,11 +1043,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53668000" />
+    <option name="totallyTimeSpent" value="57088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1028,7 +1089,8 @@
     <MESSAGE value="Problem Three: Add app properties loader + Add maven jar/dependency/assembly plugins to create a runnable jar file + refactoring" />
     <MESSAGE value="Problem One: Add Javadocs" />
     <MESSAGE value="Problem Two: Add Javadocs + Handle latitude &amp; longitude values concatenation order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem Two: Add Javadocs + Handle latitude &amp; longitude values concatenation order" />
+    <MESSAGE value="Problem Three: Add Javadocs + Refactor DB &amp; file reader common functionality into helper class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem Three: Add Javadocs + Refactor DB &amp; file reader common functionality into helper class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,38 +1103,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/resources/input_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/resources/output_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="86" column="68" lean-forward="false" selection-start-line="86" selection-start-column="68" selection-end-line="86" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/resources/output_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="71" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/model/LineEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/java/com/ebi/helper/AttributeMappingReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1337,16 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#loadProperties#0;class#AppProperties#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/DBResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1428,23 +1448,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/model/BioSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4519#4520#0" expanded="true" />
-            <element signature="e#4550#4551#0" expanded="true" />
-            <element signature="e#4921#4922#0" expanded="true" />
-            <element signature="e#4953#4954#0" expanded="true" />
+            <element signature="e#4519#4520#0" expanded="false" />
+            <element signature="e#4550#4551#0" expanded="false" />
+            <element signature="e#4921#4922#0" expanded="false" />
+            <element signature="e#4953#4954#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1454,7 +1466,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1492,6 +1504,62 @@
         <state relative-caret-position="567">
           <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemOne/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemTwo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemThree/src/main/java/com/ebi/helper/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="80" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="29" selection-end-column="80" />
+          <folding>
+            <element signature="method#loadProperties#0;class#AppProperties#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="650">
+            <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebi_sample_code.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

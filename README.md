@@ -34,3 +34,50 @@ Your	solution	should	use	JDBC.	Do	not	assume	that	the	input	and	output	tables
 are	within	the	same	database.
 Your	code	should	be	able	to	compile	and	we	may	set	the	connection	details	to	
 internal	test	databases	to	test	how	they	run.
+_________________________________________________________________________
+
+
+`How to run`
+
+_**build:**_ From the project directory (ex. ProblemOne), run command _**mvn clean package**_
+_**execute:**_ From the project directory (ex. ProblemOne), run command _**java -jar target\<jar-file-name>**_
+ex. java -jar target\problem-one.jar
+
+**Note:** All the dependencies are located in a _dependency-jar_ directory with the jar file location.
+
+`application properties`
+
+The program uses an application properties file to set the input/output file paths or DB resources.
+The file is located in the _src/main/resources_ directory. Update it with the desired values 
+before building and running the program.
+
+**_Used properties:_**
+ - _mapping.file_ : for the attributes mapping file path.
+ - _input.file_ : for the samples input TSV file.
+ - _output.file_ : for the samples output TSV file.
+ - _input.db.url_: url for the db where input sample data is stored.
+ - _input.db.user_: user for the input db.
+ - _input.db.pass_: password for the input db.
+ - _input.db.table_: table name in input db where sample data are read from.
+ - _output.db.url_: url for the db where output sample data is stored.
+ - _output.db.user_: user for the output db.
+ - _output.db.pass_: password for the output db.
+ - _output.db.table_: table name in output db where sample data are written to.
+ 
+ `Results`
+ 
+ - For each of the sample attributes, whenever there is more than one value for given sample 
+ the values are concatenated together (using ' | ' symbol). 
+ - For latitude & longitude values: because sometimes both values are provided at once while 
+ sometimes individually in a separate line, some further action need to be taken to have a 
+ uniform representation as (lat | long). The attributes for latitude & longitude are matched  
+ into three groups and used accordingly; lat only, lon only, and both lat_lon.
+ - Depth values are investigated and possible range values were assumed to have format like '0-15'. 
+ This is translated into depth start of 0 and depth end of 15. Though there is a depth_start 
+ and depth_end attributes in the mapping file, it was not found in the input file.
+ - Collection date values are investigated and possible range values were assumed to have format like 
+ '1980/2015' where '/' separates two dates or years. This is translated into start of 1980 and end of 2015. 
+ - Most of the attributes data values does not represent a single data type, therefore all 
+ are handled as strings.     
+ 
+ 
