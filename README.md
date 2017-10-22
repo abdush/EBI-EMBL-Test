@@ -1,4 +1,4 @@
-# EBI-EMBL-Test
+# EBI-EMBL
 **EBI_010230	Code	Test**
 
 Please	complete	the	following	three	problems.	When	submitting	your	code,	
@@ -40,6 +40,7 @@ _________________________________________________________________________
 `How to run`
 
 _**build:**_ From the project directory (ex. ProblemOne), run command _**mvn clean package**_
+
 _**execute:**_ From the project directory (ex. ProblemOne), run command _**java -jar target\<jar-file-name>**_
 ex. java -jar target\problem-one.jar
 
@@ -80,4 +81,7 @@ before building and running the program.
  - Most of the attributes data values does not represent a single data type, therefore all 
  are handled as strings.     
  
- 
+ `Jupyter python notebook`
+  
+  This samll python notebook is created to help in getting some sense of the sample data.
+   [EBI Sample Jupyter notebook](jupyter_notebook.md)
