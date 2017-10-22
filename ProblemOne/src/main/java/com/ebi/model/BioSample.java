@@ -1,6 +1,13 @@
 package com.ebi.model;
 
 /**
+ * Representation of bio-sample record.
+ * Includes information such as sample id, cell type, cell line, sex, depth, etc.
+ * It also includes summary statistics @{@link SampleSummary} for the attributes
+ * showing how many time each attribute was actually set for this sample.
+ * For any attribute, If it was set more than once, the attribute final value will be a
+ * concatenation of the new value with previous one (using | symbol).
+ *
  * Created by abdu on 10/18/2017.
  */
 public class BioSample {

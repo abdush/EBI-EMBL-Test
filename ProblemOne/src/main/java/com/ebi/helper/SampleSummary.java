@@ -10,6 +10,16 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
+ * Attempts to show some interesting summary details from the bio-sample map.
+ * Given a map of @{@link BioSample} objects, it shows some summary information about the samples.
+ * The summary information is obtained from @{@link com.ebi.model.BioSample.SampleSummary} which was
+ * populated while the sample file is read.
+ *
+ * Example:
+ *  - Total number of samples.
+ *  - Total number of samples where 'any' specific attribute was supplied more than once.
+ * (This can help to get sense of the data and interpret its usage).
+ *
  * Created by abdu on 10/20/2017.
  */
 public class SampleSummary {
@@ -74,7 +84,7 @@ public class SampleSummary {
                 .collect(Collectors.toList());
     }
 
-    private static boolean attributeMoreThanOnce(BioSample bioSample) {
+    public static boolean attributeMoreThanOnce(BioSample bioSample) {
         BioSample.SampleSummary sampleSummary = bioSample.getSampleSummary();
         return sampleSummary.getCollectionDateAttrCounter() > 1 ||
                 sampleSummary.getDepthAttrCounter() > 1 ||

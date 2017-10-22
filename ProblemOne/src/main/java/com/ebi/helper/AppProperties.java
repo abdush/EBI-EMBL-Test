@@ -9,6 +9,16 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
+ * Holds configuration parameters for the application.
+ * Reads the properties file 'application.properties' under the resources folder (src/main/resources)
+ * and set some configuration parameters.
+ * Can be used before running the application to set location of the different files (mapping, input, output).
+ *
+ * Used properties:
+ *  - mapping.file : for the attributes mapping file path.
+ *  - input.file : for the samples input TSV file.
+ *  - output.file : for the samples output TSV file.
+ *
  * Created by abdu on 10/21/2017.
  */
 public class AppProperties {
