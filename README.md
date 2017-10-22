@@ -42,9 +42,20 @@ _________________________________________________________________________
 _**build:**_ From the project directory (ex. ProblemOne), run command _**mvn clean package**_
 
 _**execute:**_ From the project directory (ex. ProblemOne), run command _**java -jar target\<jar-file-name>**_
+
 ex. java -jar target\problem-one.jar
 
+Or
+
+Use the provided bash script:
+
+_**build:**_ run command _**./service.sh build**_
+
+_**execute:**_ run command _**./service.sh run**_
+
+
 **Note:** All the dependencies are located in a _dependency-jar_ directory with the jar file location.
+
 
 `application properties`
 
@@ -71,8 +82,7 @@ before building and running the program.
  the values are concatenated together (using ' | ' symbol). 
  - For latitude & longitude values: because sometimes both values are provided at once while 
  sometimes individually in a separate line, some further action need to be taken to have a 
- uniform representation as (lat | long). The attributes for latitude & longitude are matched  
- into three groups and used accordingly; lat only, lon only, and both lat_lon.
+ uniform representation as (lat | long). The attributes for latitude & longitude are matched into three groups and used accordingly; lat only, lon only, and both lat and lon.
  - Depth values are investigated and possible range values were assumed to have format like '0-15'. 
  This is translated into depth start of 0 and depth end of 15. Though there is a depth_start 
  and depth_end attributes in the mapping file, it was not found in the input file.
