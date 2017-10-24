@@ -3005,5 +3005,107 @@ samples_output
 
 
 ```python
+samples_output = samples_output.rename_axis(None, axis=1).reset_index() 
+samples_output.head()
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sampleId</th>
+      <th>CellType</th>
+      <th>CollectionDate</th>
+      <th>Depth</th>
+      <th>Lat_Long</th>
+      <th>NotMapped</th>
+      <th>Sex</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ERS000029</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Czech Republic</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ERS000030</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Czech Republic</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ERS000038</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>missing | missing</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ERS000039</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>-79 | 36</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ERS000040</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>-88 | 42</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+#Write the samples TSV file
+column_names = ['sampleId','CellType','Sex', 'Depth', 'CollectionDate', 'Lat_Long' ]
+cols= ['sampleId','CellType','Sex', 'Depth', 'CollectionDate', 'Lat_Long']
+samples_output.to_csv('dataset/output_data.txt', sep='\t', header=column_names, columns=cols,
+                      na_rep='null', index=False)
+```
+
+
+```python
 
 ```
